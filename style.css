@@ -1,0 +1,1011 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+a{
+    text-decoration: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/*---------------------------------------------MISHA BEGIN------------------------------------------------------------------*/
+.misha {
+    overflow: hidden;
+    font-family: 'Open Sans', sans-serif;
+}
+.misha h1{
+    font-size: 61px;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.m-bg1 {
+    background: url("./img/mbg1.jpg") no-repeat;
+    background-size: cover;
+    max-height: 632px;
+    background-position-y: -276px;
+    overflow: hidden;
+    padding: 88px 0 73px 0;
+    box-sizing: border-box;
+}
+
+.mform {
+    max-width: 1008px;
+    max-height: 471px;
+    background-color: #000;
+    opacity: 0.7;
+    color: #fff;
+    margin: auto;
+    box-sizing: border-box;
+    padding: 39px 31px 50px 37px;
+}
+
+.mform h2 {
+    font-weight: 300;
+    font-size: 37px;
+    line-height: 57px;
+    text-align: center;
+}
+
+.mform h1 {
+    font-size: 46px;
+    line-height: 57px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 41px;
+}
+
+.mcontainer {
+    overflow: hidden;
+}
+
+.mleft {
+    float: left;
+}
+
+.mright {
+    float: right;
+    overflow: hidden;
+    max-width: 415px;
+    padding-top: 22px;
+    padding-left: 37px;
+    border-left: 4px solid #ec2026;
+}
+
+.mleft li {
+    font-size: 20px;
+    line-height: 27px;
+    padding-left: 15px;
+}
+
+.mleft ul {
+    list-style: url("./img/mred-square.png");
+    margin-left: 24px;
+}
+
+.mright input {
+    font-size: 14px;
+    height: 37px;
+    font-weight: 300;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 4px 0;
+    padding-left: 20px;
+    border-radius: 4px;
+}
+
+.mright button {
+    max-width: 263px;
+    height: 49px;
+    background-color: #ec2026;
+    color: #fff;
+    font-size: 19px;
+    font-weight: 600;
+    box-sizing: border-box;
+    padding: 0 25px 0;
+    margin: 30px 110px 0 0;
+}
+
+/*----------------------------------------------mbg2----------------------------------------------------------*/
+.mbg2 {
+    overflow: hidden;
+    padding: 92px 0 78px 0;
+    max-width: 1920px;
+}
+
+
+.mred-line {
+    padding: 38px 0 49px 0;
+    margin: auto;
+    display: block;
+}
+
+.mbg2-container {
+    max-width: 982px;
+    overflow: hidden;
+    margin: auto;
+}
+
+.mfloat {
+    float: left;
+    margin-right: 78px;
+    text-align: center;
+
+}
+
+.mbg2-container :last-child {
+    margin-right: 0;
+}
+
+.mfloat p {
+    font-size: 23px;
+    padding-top: 30px;
+    text-transform: uppercase;
+}
+
+.mfloat ul {
+    margin-top: 19px;
+}
+
+.mfloat li {
+    font-size: 17px;
+    line-height: 25px;
+}
+
+/*---------------------------------------------------mbg3----------------------------------------------------------------*/
+.mbg3 {
+    background: url("./img/mbg3.jpg") no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    padding: 78px 0 73px 0;
+}
+
+
+
+.mbg3-container {
+    background-color: #fff;
+    max-width: 1000px;
+    max-height: 500px;
+    overflow: hidden;
+    padding: 11px;
+    box-sizing: border-box;
+    margin: auto;
+    border-radius: 4px;
+}
+
+.mbg3-floatleft {
+    float: left;
+    max-width: 504px;
+    margin-right: 45px;
+}
+
+.weight-700 {
+    font-weight: 700;
+}
+
+.mbg3-floatright {
+    max-width: 400px;
+    float: left;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 32px;
+    margin-top: 24px;
+}
+
+.mcomment-container {
+    margin-top: 33px;
+}
+
+.mcomment-foto {
+    float: left;
+}
+
+.mcomment {
+    float: left;
+    font-size: 14px;
+    line-height: 22px;
+    max-width: 281px;
+    margin-left: 20px;
+}
+
+.mname {
+    color: #d52a2a;
+    font-weight: 600;
+}
+.mbg3-arrow{
+    text-align: center;
+    margin-top: 22px;
+}
+/*------------------------------------------mbg4---------------------------------------------------------*/
+.mbg4{
+    background: url("./img/mbg4.jpg") no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    padding: 80px 0 98px 0;
+}
+.mcertificate{
+    max-width: 850px;
+    margin: auto;
+    margin-bottom: 90px;
+}
+.mcity{
+  display: block;
+    margin: 0 auto 25px;
+}
+.mbg4-container{
+    overflow: hidden;
+    max-width: 1000px;
+    margin: auto;
+}
+.mbg4-floatleft{
+    float: left;
+}
+.mbg4-floatright{
+    float: right;
+    max-width: 865px;
+    font-size: 17px;
+    line-height: 30px;
+
+}
+
+/*---------------------------------------MISHA END--------------------------------------------------------*/
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+<<<<<<< HEAD
+.width-container{
+    /*max-width: 997px;*/
+=======
+.Yullia-topline .width-container{
+    max-width: 997px;
+>>>>>>> Yuliia
+    margin: auto;
+}
+.float-container{
+    overflow: hidden;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.text-container{
+    float: right;
+}
+.Yuliia-topline{
+    height: 120px;
+    background-color: #fff;
+    padding-top: 30px;
+    box-sizing: border-box;
+}
+.Yuliia-cover{
+    background: url(./img/main.png) no-repeat top fixed;
+    min-height: 872px;
+    background-size: cover;
+    padding-top: 26px;
+}
+.text-container{
+    margin-left: 15px;
+    margin-bottom: 3px;
+    margin-top: 10px;
+}
+.text-container h3{
+    font-size: 28px;
+    text-transform: uppercase;
+}
+.text-container p{
+    color: #a5a5a5;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+.Yuliia-topline .number{
+    display: block;
+    font-size: 23px;
+    margin-bottom: 13px;
+    color: #333333;
+}
+.Yuliia-topline a {
+    display: block;
+}
+
+.Yuliia-topline .numberText{
+    font-size: 13px;
+    color: #ec2026;
+    border: 1.2px solid #ec2026;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: all .3s;
+    line-height: 30px;
+    height: 30px;
+    display: block;
+    text-align: center;
+    box-sizing: border-box;
+}
+.Yuliia-topline a:hover .numberText{
+    color: #fff;
+    background-color: #ec2026;
+}
+.transparent-line{
+    height: 196px;
+    background-color: rgba(255, 255, 255, 0.54);
+    text-align: center;
+    padding: 33px 0;
+    box-sizing: border-box;
+}
+.transparent-line h1{
+    font-size: 74px;
+    text-transform: uppercase;
+    color: #333333;
+    margin-bottom: 13px;
+
+}
+.transparent-line h4{
+    font-size: 27px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 10px;
+}
+.transparent-line p{
+    font-size: 23px;
+    color: #333333;
+}
+.form-yuliia{
+    padding: 35px 30px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 38px auto 60px;
+    min-height: 437px;
+    max-width: 434px;
+    background-color: rgba(0, 0, 0, 0.74);
+}
+.form-yuliia h1 {
+    color: #fff;
+    font-size: 22px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.form-yuliia p{
+    margin-bottom: 19px;
+}
+
+span.text{
+    color: #ffffff;
+    font-size: 18px;
+    vertical-align: text-bottom;
+    margin-left: 18px;
+}
+.square{
+    height: 6px;
+    width: 6px;
+    background-color: red;
+    display: inline-block;
+}
+.form-yuliia input,a,button,textarea{
+    outline:none;
+    cursor: pointer;
+}
+.form-yuliia form input{
+    transition: all .3s;
+    width: 370px;
+    height: 35px;
+    margin-bottom: 15px;
+    padding-left: 18px;
+    box-sizing: border-box;
+    border: 1px solid transparent;
+}
+
+.form-yuliia form input:focus{
+    border-color: #e03921;
+}
+.form-yuliia form button{
+    width: 260px;
+    height: 49px;
+    background: #ec282d;
+    font-size: 19px;
+    color: #fefefd;
+    border-radius: 5px;
+    border: none;
+}
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+/*@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');*/
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/*---------------------------------------------MISHA BEGIN------------------------------------------------------------------*/
+.misha {
+    overflow: hidden;
+    font-family: 'Open Sans', sans-serif;
+}
+.misha h1{
+    font-size: 61px;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.m-bg1 {
+    background: url("./img/mbg1.jpg") no-repeat;
+    background-size: cover;
+    max-height: 632px;
+    background-position-y: -276px;
+    overflow: hidden;
+    padding: 88px 0 73px 0;
+    box-sizing: border-box;
+}
+
+.mform {
+    max-width: 1008px;
+    max-height: 471px;
+    background-color: #000;
+    opacity: 0.7;
+    color: #fff;
+    margin: auto;
+    box-sizing: border-box;
+    padding: 39px 31px 50px 37px;
+}
+
+.mform h2 {
+    font-weight: 300;
+    font-size: 37px;
+    line-height: 57px;
+    text-align: center;
+}
+
+.mform h1 {
+    font-size: 46px;
+    line-height: 57px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 41px;
+}
+
+.mcontainer {
+    overflow: hidden;
+}
+
+.mleft {
+    float: left;
+}
+
+.mright {
+    float: right;
+    overflow: hidden;
+    max-width: 415px;
+    padding-top: 22px;
+    padding-left: 37px;
+    border-left: 4px solid #ec2026;
+}
+
+.mleft li {
+    font-size: 20px;
+    line-height: 27px;
+    padding-left: 15px;
+}
+
+.mleft ul {
+    list-style: url("./img/mred-square.png");
+    margin-left: 24px;
+}
+
+.mright input {
+    font-size: 14px;
+    height: 37px;
+    font-weight: 300;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 4px 0;
+    padding-left: 20px;
+    border:1px solid #fff;
+    border-radius: 2px;
+}
+.mright input:hover{
+    border: 1px solid #ff3333;
+}
+
+.mright button {
+    max-width: 263px;
+    height: 49px;
+    background-color: #ec2026;
+    color: #fff;
+    font-size: 19px;
+    font-weight: 600;
+    box-sizing: border-box;
+    padding: 0 25px 0;
+    margin: 30px 110px 0 0;
+    border:1px solid #ec2026;
+    border-radius: 2px;
+}
+
+/*----------------------------------------------mbg2----------------------------------------------------------*/
+.mbg2 {
+    overflow: hidden;
+    padding: 92px 0 78px 0;
+    max-width: 1920px;
+}
+
+
+.mred-line {
+    padding: 38px 0 49px 0;
+    margin: auto;
+    display: block;
+}
+
+.mbg2-container {
+    max-width: 982px;
+    overflow: hidden;
+    margin: auto;
+}
+
+.mfloat {
+    float: left;
+    margin-right: 78px;
+    text-align: center;
+
+}
+
+.mbg2-container :last-child {
+    margin-right: 0;
+}
+
+.mfloat p {
+    font-size: 23px;
+    padding-top: 30px;
+    text-transform: uppercase;
+}
+
+.mfloat ul {
+    margin-top: 19px;
+}
+
+.mfloat li {
+    font-size: 17px;
+    line-height: 25px;
+}
+
+/*---------------------------------------------------mbg3----------------------------------------------------------------*/
+.mbg3 {
+    background: url("./img/mbg3.jpg") no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    padding: 78px 0 73px 0;
+    background-position-y: -182px;
+}
+
+
+
+.mbg3-container {
+    background-color: #fff;
+    max-width: 1000px;
+    max-height: 500px;
+    overflow: hidden;
+    padding: 11px;
+    box-sizing: border-box;
+    margin: auto;
+    border-radius: 4px;
+}
+
+.mbg3-floatleft {
+    float: left;
+    max-width: 504px;
+    margin-right: 45px;
+}
+
+.weight-700 {
+    font-weight: 700;
+}
+
+.mbg3-floatright {
+    max-width: 400px;
+    float: left;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 32px;
+    margin-top: 24px;
+}
+
+.mcomment-container {
+    margin-top: 33px;
+}
+
+.mcomment-foto {
+    float: left;
+}
+
+.mcomment {
+    float: left;
+    font-size: 14px;
+    line-height: 22px;
+    max-width: 281px;
+    margin-left: 20px;
+}
+
+.mname {
+    color: #d52a2a;
+    font-weight: 600;
+}
+.mbg3-arrow{
+    text-align: center;
+    margin-top: 22px;
+}
+/*------------------------------------------mbg4---------------------------------------------------------*/
+.mbg4{
+    background: url("./img/mbg4.jpg") no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    padding: 80px 0 98px 0;
+    background-position: -510px -165px;
+}
+.mcertificate{
+    max-width: 850px;
+    margin: auto;
+    margin-bottom: 90px;
+}
+.mcity{
+    display: block;
+    margin: 0 auto 25px;
+}
+.mbg4-container{
+    overflow: hidden;
+    max-width: 1000px;
+    margin: auto;
+}
+.mbg4-floatleft{
+    float: left;
+}
+.mbg4-floatright{
+    float: right;
+    max-width: 865px;
+    font-size: 17px;
+    line-height: 30px;
+
+}
+
+/*---------------------------------------MISHA END--------------------------------------------------------*/
+img{
+    position: relative;
+    max-width: 100%;
+}
+.vlad2 {
+    position:absolute;
+    margin-left: 587px;
+    margin-top: -782px;
+    color:#fff;
+    font-size: 70%;
+}
+.vlad2 p{
+    margin-top: 15px;
+}
+.vlad3{
+    position:absolute;
+    margin-left: 900px;
+    margin-top: -34px;
+    color:#fff;
+    font-size: 70%;
+}
+a{
+    text-decoration: none;
+    color:#fff;
+}
+.vlad4{
+    position: absolute;
+    margin-left: 355px;
+    margin-top: -154px;
+}
+.vlad5{
+    position: absolute;
+    margin-left: 373px;
+    margin-top: -154px;
+}
+.vlad6{
+    position: absolute;
+    margin-left: 512px;
+    margin-top: -154px;
+}
+.vlad7{
+    position: absolute;
+    margin-left: 529px;
+    margin-top: -154px;
+}
+.vlad8{
+    position: absolute;
+    margin-left: 469px;
+    margin-top: -1136px;
+}
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+.section-ihor{
+    position: relative;
+    max-width: 1920px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.ihor h1{
+    font-size: 61px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.line{
+
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    padding-top: 32px;
+    padding-bottom: 76px;
+}
+.block-grey{
+    background: url(./img/grey-block.png);
+    max-width: 1920px;
+    min-height: 380px;
+}
+.container-ihor{
+    max-width: 1097px;
+    margin: auto;
+
+}
+.container-ihor img{
+    float: right;
+    padding-top: 21px;
+    padding-bottom: 23px;
+}
+.item-ihor{
+    overflow: hidden;
+    padding-left: 38px;
+    padding-top: 70px;
+    padding-right: 39px;
+    text-align: right;
+
+}
+.item-ihor h3{
+    font-size: 29px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: right;
+    line-height: 30px;
+    padding-bottom: 29px;
+}
+.item-ihor p{
+    font-size: 20px;
+    line-height: 34px;
+}
+.img-ihor-left img{
+    float: left;
+}
+.container-ihor-left{
+    max-width: 1097px;
+    margin: auto;
+    padding-top: 40px;
+    padding-bottom: 83px;
+}
+
+.item-ihor-left h3{
+    font-size: 29px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: left;
+    line-height: 30px;
+    padding-bottom: 29px;
+}
+.item-ihor-left p{
+    font-size: 20px;
+    line-height: 34px;
+    text-align: left;
+}
+.item-ihor-left{
+    overflow: hidden;
+    padding-left: 38px;
+    padding-top: 70px;
+    padding-right: 39px;
+    text-align: right;
+}
+.img-flowers{
+    position: absolute;
+    width: 467px;
+    height: 719px;
+    bottom: 20px;
+    background: url("./img/bg-flowers.png");
+    z-index: -1;
+}
+.width-container{
+    max-width: 1580px;
+    margin: auto;
+}
+.second-title{
+    text-align: center;
+
+}
+.second-title img{
+    margin-top: 33px;
+}
+.second-title h2{
+    text-align: center;
+    font-size: 61px;
+    font-weight: 300;
+    font-family: "Open Sans", sans-serif;
+}
+.back-pic {
+    background: url("./img/background_city.png") no-repeat;
+    min-height: 840px;
+    overflow: hidden;
+}
+.content{
+    max-width: 1000px;
+    margin: auto;
+    font-size: 18px;
+}
+.content a{
+    text-decoration: none;
+    color: #333333;
+    text-align: center;
+}
+.content li{
+    list-style: square;
+    color: red;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    margin-top: 43px;
+}
+.s-left{
+    float: left;
+}
+.s-left img{
+    display: block;
+    margin: auto;
+}
+.s-left span{
+    display: block;
+    text-align: center;
+    font-size: 28px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+}
+.s-right{
+    float: right;
+}
+.s-right img{
+    display: block;
+    margin: auto;
+}
+.s-right span {
+    display: block;
+    text-align: center;
+    font-size: 28px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+}
+.down-text p{
+    font-weight: bold;
+    font-size: 18px;
+    text-align: left;
+    color: red;
+    font-family: "Open Sans", sans-serif;
+    margin-top: 47px;
+
+}
+.down-text span {
+    font-weight: 400;
+    font-size: 18px;
+    text-align: left;
+}
+.down-text1{
+    margin-bottom: 17px;
+}
+.button{
+    margin: 60px auto 0;
+    text-align: center;
+    border: 1px solid #ec2026;
+    max-width: 442px;
+    max-height: 60px;
+    width: 100%;
+}
+.button a{
+    line-height: 60px;
+    color: #ec2026;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+}
+.economy span{
+    margin: 49px 0 25px 0;
+}
+>>>>>>> stas
